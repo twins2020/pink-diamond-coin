@@ -158,7 +158,7 @@
   },
   "scripts": { 
     "build": "node build/build.js",
-    "clean"://webhook.gatsbyjs.com/hooks/data_source/publish/2dcf7144-69e1-4450-9c1a-64876f3bb322 "rm -rf lib es umd index.js",
+    "clean" "rm -rf lib es umd index.js",
     "format": "prettier '**/*.js' --write",
     "lint": "eslint src",
     "precommit": "pretty-quick --staged",
