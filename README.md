@@ -1,7 +1,7 @@
 # pink-diamond-coin
 🚀⚡️ Blazing fast blog built with Gatsby and the Cosmic Headless CMS 🔥
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-start>
+  <a href="https://www.gatsbyjs.com/pink-diamond-coin/utm_source=starter&utm_medium=readme&utm_campaign=minimal-start>
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
@@ -25,7 +25,7 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/pink-diamond-coin
+    cd my-gatsby-site/
     npm run develop
     ```
 
@@ -52,4 +52,4 @@
 
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsby.io>
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.pinkdiamondcoin.gatsby.io>
