@@ -157,7 +157,7 @@
     "url": "git+https://github.com/reach/router.git"
   },
   "scripts": { 
-    "build": "node build/build.js",
+    "build": "node build/build.js"
     "clean" "rm -rf lib es umd index.js",
     "format": "prettier '**/*.js' --write",
     "lint": "eslint src",
