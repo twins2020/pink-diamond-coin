@@ -1,68 +1,54 @@
-# Gatsby + Cosmic
+<p align="center">
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby minimal starter
+</h1>
 
-![gatsby-blog-cosmicjs](https://cdn.cosmicjs.com/fe5196f0-42c2-11ea-8d10-df553329919a-gatsby-blog-cosmic.png "The index page of the starter blog")
+## 🚀 Quick start
 
-> This repo contains an example blog website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Cosmic](https://www.cosmicjs.com).
+1.  **Create a Gatsby site.**
 
-> [See live demo hosted on Netlify](https://gatsby-blog-cosmicjs.netlify.com/)
+    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-> Uses the [Cosmic Gatsby Source Plugin](https://www.npmjs.com/package/gatsby-source-cosmicjs)
+    ```shell
+    # create a new Gatsby site using the minimal starter
+    npm init gatsby
+    ```
 
-## Prerequisites
+2.  **Start developing.**
 
-- Node (I recommend using v8.2.0 or higher)
-- [Gatsby CLI](https://www.gatsbyjs.org/docs/)
+    Navigate into your new site’s directory and start it up.
 
-## Install
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
 
-``` bash
-# Make sure that you have the Gatsby CLI program installed
-npm install --global gatsby-cli
+3.  **Open the code and start customizing!**
 
-# run from your CLI
-gatsby new gatsby-example-blog https://github.com/cosmicjs/gatsby-blog-cosmicjs
-```
-In `gatsby-config.js` you need to add configuration for your Cosmic Bucket
+    Your site is now running at http://localhost:8000!
 
-``` javascript
-{
-  resolve: 'gatsby-source-cosmicjs',
-  options: {
-    bucketSlug: '', /* Find this in Your Bucket > Settings > Basic Settings after logging in at https://app.cosmicjs.com/login */
-    objectTypes: ['posts', 'settings'], /* Object types to fetch */
-    apiAccess: {
-      read_key: '', /* Find this in Your Bucket > Settings > API Access after logging in at https://app.cosmicjs.com/login */
-    },
-    localMedia: true /* Optional. If you want to enable local image for Gatsby Image */
-  }
-},
-```
+    Edit `src/pages/index.js` to see your site update in real-time!
 
-Then
+4.  **Learn more**
 
-``` bash
-# Then you can run it by
-cd gatsby-example-blog
-npm run develop
-```
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## Enable content auto refresh
-To enable content auto refresh, open another terminal window and run the following command:
-```
-npm run poll-content
-```
-This will poll the content in your Bucket for any updates and automatically refresh it in your blog during development. Learn more about refreshing content in the [Gatsby docs](https://www.gatsbyjs.com/docs/refreshing-content/).
+    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## Deploy to Netlify
-You can deploy to Netlify in a few steps using their CLI. Run the following commands from the root folder.
-```
-npm i -g netlify-cli
-netlify deploy
-```
+    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-#### Set your Environment Variables in Netlify
-In the Netlify dashboard, set your environment variables located in <i>Site Settings > Build and Deploy > Environment</i>. Find your Cosmic Bucket keys located in <i>Bucket > Basic Settings</i> after <a href="https://app.cosmicjs.com/login">logging in</a>.
-```
-COSMIC_BUCKET=<your-bucket-slug>
-COSMIC_READ_KEY=<your-bucket-read-key>
-```
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+## 🚀 Quick start (Gatsby Cloud)
+
+Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
